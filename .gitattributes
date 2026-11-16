@@ -1,0 +1,7 @@
+# data/records.csv is byte-exact generator output (its MD5 is checked); never rewrite line endings
+data/records.csv -text
+# keep every other text file with LF line endings on every platform
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+outputs/*.csv text eol=lf
